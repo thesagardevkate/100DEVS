@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: boreder-box;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:
+}
+
+.container{
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.top-section, .middle-section, .bottom-section{
+  background-color: #eee;
+  flex: 1;
+}
+
+.split-section{
+  display: flex;
+  flex: 1;
+  gap: 5px;
+}

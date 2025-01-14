@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+header{
+  height: 10%;
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left, .center, .right{
+  flex: 1;
+  background-color: #e0e0e0;
+  margin: 5px;
+}
+
+footer{
+  height: 10%;
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  width: 80%;
+  height: 80%;
+}
